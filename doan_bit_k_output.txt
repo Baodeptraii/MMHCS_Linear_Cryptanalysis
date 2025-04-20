@@ -1,0 +1,39 @@
+Khóa đang dùng (ẩn): 71f9cc0ce76f042e
+Biểu thức tuyến tính = 0: 32698 / 65536 ~ 49.89%
+Đoán XOR(K[42], K[43], K[44]) = 1
+
+Khóa đang dùng (ẩn): eeff10b510e66686
+Biểu thức tuyến tính = 0: 32744 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 1
+
+Khóa đang dùng (ẩn): a82f68baa5ab36b9
+Biểu thức tuyến tính = 0: 32897 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 0
+
+Khóa đang dùng (ẩn): 7db31e04c40c4fa3
+Biểu thức tuyến tính = 0: 32994 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 0
+
+Khóa đang dùng (ẩn): 02f51e8e2bcf99dd
+Biểu thức tuyến tính = 0: 32711 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 1
+
+Khóa đang dùng (ẩn): 86c3ac2d41d6907c
+Biểu thức tuyến tính = 0: 32549 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 1
+
+Khóa đang dùng (ẩn): 49bffeeba157fed6
+Biểu thức tuyến tính = 0: 32613 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 1
+
+Khóa đang dùng (ẩn): b59cabcdc7a53355
+Biểu thức tuyến tính = 0: 32808 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 0
+
+Khóa đang dùng (ẩn): 8138857a74775200
+Biểu thức tuyến tính = 0: 32648 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 1
+
+Khóa đang dùng (ẩn): 55db7d79069feacc
+Biểu thức tuyến tính = 0: 32831 / 65536
+Đoán XOR(K[42], K[43], K[44]) = 0
