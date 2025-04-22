@@ -32,3 +32,24 @@ Tổng kết:
 Hạn chế:
 - Đang mô phỏng đặc trưng tuyến tính đơn giản ( 3 vòng )
 - Chỉ phục hồi một số bit khóa
+
+Xác định các biểu thức (xấp xỉ) tuyến tính:
+- Có dạng : α • input ⊕ β • output = 0   (hoặc = 1) ( mark đầu vào - ra, xor vs nhau)
+- Duyệt mọi đầu vào ( các giá trị 6 bits của sbox ) và xây bảng xấp xỉ tuyến tính LAT ( đầu ra là 4 bits)
+- Chọn α, β có bias cao nhất
+
+Tính bias:
+- Sinh N cặp bản rõ/mã 
+- Với mỗi cặp, tách các bit cần thiết
+- Sử dụng các bit vừa tách để tính biểu thức tuyến tính 
+- Nếu biểu thức = 0, tăng count += 1
+- p = count / N
+- bias = | p - 1/2 |
+
+Đoán bit vòng cuối:
+- Có α, β có bias cao nhất
+- Xác định phần đầu vào/ra liên quan đến S-box ở vòng 16
+- Với mỗi cặp plaintext-ciphertext, thử mọi k_guess, tính biểu thức
+- Đếm số lần đúng của k_guess count[k] += 1
+- Chọn k_guess có bias lệch nhất → là bit khóa của K16 liên quan S-box ( Sử dụng bổ đề Piling-up)
+
