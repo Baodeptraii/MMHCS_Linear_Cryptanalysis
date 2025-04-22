@@ -1,0 +1,24 @@
+Khóa thật: 11010010 (thập phân: 210)
+Độ lệch dự kiến cho khóa đúng: 0.3125
+Số mẫu: 65536
+Khóa thu hồi được: 0010 (thập phân: 2)
+Khóa thật (4 bit thấp nhất): 0010 (thập phân: 2)
+Thành công! Các bit khóa đã được khôi phục chính xác.
+
+Độ lệch (bias) của các khóa dự đoán (giảm dần):
+Khóa 0010 có độ lệch 0.0048 <= Khóa đúng
+Khóa 0101 có độ lệch 0.0048
+Khóa 1010 có độ lệch 0.0048
+Khóa 1101 có độ lệch 0.0048
+Khóa 0001 có độ lệch 0.0008
+Khóa 0110 có độ lệch 0.0008
+Khóa 1001 có độ lệch 0.0008
+Khóa 1110 có độ lệch 0.0008
+Khóa 0011 có độ lệch 0.0006
+Khóa 0100 có độ lệch 0.0006
+Khóa 1011 có độ lệch 0.0006
+Khóa 1100 có độ lệch 0.0006
+Khóa 0000 có độ lệch 0.0004
+Khóa 0111 có độ lệch 0.0004
+Khóa 1000 có độ lệch 0.0004
+Khóa 1111 có độ lệch 0.0004

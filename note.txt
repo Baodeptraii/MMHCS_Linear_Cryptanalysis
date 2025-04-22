@@ -1,0 +1,34 @@
+Note cho des_3_round.py
+
+S-boxes (S_BOXES): 8 hộp thay thế 6-bit vào 4-bit
+Các hoán vị (IP, FP, E, P, PC1, PC2): Dùng trong các bước của thuật toán DES
+Key rotation schedule (KEY_SHIFTS): Lịch trình dịch bit cho khóa con
+
+permute(): Thực hiện hoán vị bit theo bảng cho trước
+split_block(): Chia khối 64-bit thành 2 nửa 32-bit
+expand(): Mở rộng 32-bit thành 48-bit
+substitute(): Áp dụng S-boxes
+generate_subkeys(): Tạo 16 khóa con từ khóa chính
+f_function(): Hàm Feistel trong DES
+des_encrypt_block() và des_decrypt_block(): Mã hóa/giải mã 1 khối
+
+Các hàm quan trọng còn lại đc mô tả bằng # VIẾT HOA
+
+Tổng kết:
+    Chuẩn bị:
+        Xác định các xấp xỉ tuyến tính qua S-boxes
+        Xây dựng đặc trưng tuyến tính qua nhiều vòng
+    Thu thập dữ liệu:   
+        Tạo số lượng lớn bản rõ ngẫu nhiên
+        Mã hóa chúng bằng khóa bí mật để có bản mã tương ứng
+    Phân tích:
+        Với mỗi cặp (bản rõ, bản mã), tính giá trị biểu thức tuyến tính
+        Thống kê tần suất biểu thức = 0
+        So sánh với xác suất mong đợi để suy ra bit khóa
+    Đánh giá kết quả:
+        Tính độ chính xác của bit khóa phục hồi 
+        Đánh giá số lượng bản rõ cần thiết để tấn công thành công
+
+Hạn chế:
+- Đang mô phỏng đặc trưng tuyến tính đơn giản ( 3 vòng )
+- Chỉ phục hồi một số bit khóa

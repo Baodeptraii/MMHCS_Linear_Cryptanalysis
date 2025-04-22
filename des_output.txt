@@ -1,0 +1,10 @@
+SBOX 1: max bias = 0.28125, best (in_mask, out_mask) = [(16, 15)]
+SBOX 2: max bias = 0.25000, best (in_mask, out_mask) = [(34, 11)]
+SBOX 3: max bias = 0.25000, best (in_mask, out_mask) = [(34, 15)]
+SBOX 4: max bias = 0.25000, best (in_mask, out_mask) = [(34, 15), (40, 15), (43, 6), (43, 9)]
+SBOX 5: max bias = 0.31250, best (in_mask, out_mask) = [(16, 15)]
+SBOX 6: max bias = 0.21875, best (in_mask, out_mask) = [(16, 7), (34, 11)]
+SBOX 7: max bias = 0.28125, best (in_mask, out_mask) = [(59, 4)]
+SBOX 8: max bias = 0.25000, best (in_mask, out_mask) = [(16, 15), (34, 14)]
+
+=> SBOX số 5 có bias đẹp nhất => Chọn
